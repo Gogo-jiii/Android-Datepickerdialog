@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 editText.setText(date);
             }
         }, year, month, day);
+        datePickerDialog.setTitle("Select Date");
         datePickerDialog.show();
     }
 }
